@@ -7,7 +7,7 @@ It is designed to track product inventory, record sales transactions, and presen
 
 The system reflects how retail, distribution, and e-commerce organizations build internal analytics platforms for operational and management decision-making.
 
-🚀 Project Overview
+###🚀 Project Overview
 
 The Sales & Inventory Analytics Dashboard provides a complete solution for:
 
@@ -27,7 +27,7 @@ The project emphasizes scalability, performance, and clean architecture, rather 
 
 
 
-🏗️ High-Level Architecture
+###🏗️ High-Level Architecture
 React Frontend (Analytics Dashboard)
         │
         ▼
@@ -41,7 +41,7 @@ PostgreSQL Database
 Celery Workers + Redis
 (Async Analytics & Alerts)
 
-⚙️ Tech Stack
+###⚙️ Tech Stack
 Frontend
 
 React
@@ -74,7 +74,7 @@ AWS EC2 friendly
 
 CI/CD-ready structure
 
-🧩 Key Features
+###🧩 Key Features
 🎨 React Analytics Dashboard
 
 Displays business KPIs in real time
@@ -87,7 +87,7 @@ Communicates securely with backend APIs
 
 Designed for management and analyst use cases
 
-🔐 Authentication & Security
+###🔐 Authentication & Security
 
 JWT-based authentication
 
@@ -95,7 +95,7 @@ Secure API communication between frontend and backend
 
 Easily extendable to role-based access control
 
-📦 Product & Inventory Management
+###📦 Product & Inventory Management
 
 Centralized product and category management
 
@@ -105,7 +105,7 @@ Supports warehouse/location metadata
 
 Automatically updates inventory on sales
 
-💰 Sales Tracking
+###💰 Sales Tracking
 
 Records all sales transactions
 
@@ -113,7 +113,7 @@ Supports multiple sales channels (online/offline)
 
 Maintains historical sales data for analytics
 
-📈 Analytics & KPI Engine
+###📈 Analytics & KPI Engine
 
 Generates daily business KPIs asynchronously
 
@@ -131,7 +131,7 @@ Low-stock item count
 
 Designed to support future trend analysis (weekly/monthly)
 
-⚙️ Background Processing
+###⚙️ Background Processing
 
 Heavy analytics tasks handled outside API requests
 
@@ -139,7 +139,7 @@ Prevents performance bottlenecks
 
 Scheduled background jobs for reporting and monitoring
 
-🚀 Performance Optimization
+###🚀 Performance Optimization
 
 Redis caching for frequently accessed analytics
 
@@ -147,7 +147,7 @@ Reduced database load for dashboard requests
 
 Faster response times for high-traffic endpoints
 
-🚨 Inventory Alerts
+###🚨 Inventory Alerts
 
 Automatically detects low-stock products
 
@@ -155,7 +155,7 @@ Exposes alert data via APIs
 
 Easily extendable to email or notification systems
 
-🔗 API Usage
+###🔗 API Usage
 
 The frontend consumes REST APIs to:
 
@@ -171,7 +171,7 @@ Record sales transactions
 
 All API communication is secure and token-based.
 
-🧰 Project Structure (Overview)
+###🧰 Project Structure (Overview)
 sales_inventory_dashboard/
 │
 ├── frontend/   # React analytics dashboard
@@ -179,7 +179,7 @@ sales_inventory_dashboard/
 ├── requirements.txt
 └── manage.py
 
-🧪 Testing Strategy
+###🧪 Testing Strategy
 
 Backend unit testing for business logic
 
@@ -189,7 +189,7 @@ Validation of background task execution
 
 Designed to support realistic data volumes
 
-☁️ Deployment Readiness
+###☁️ Deployment Readiness
 
 Structured for cloud deployment
 
@@ -199,7 +199,7 @@ Backend compatible with Gunicorn & Nginx
 
 Frontend ready for static build deployment
 
-👨‍💻 Author
+###👨‍💻 Author
 
 Dillip Kumar Singh
 Backend / Full-Stack Python Developer
