@@ -1,6 +1,6 @@
-##📊 Sales & Inventory Analytics Dashboard
+# 📊 Sales & Inventory Analytics Dashboard  
+### Enterprise-Grade Sales, Inventory & KPI Analytics Platform
 
-Full-stack analytics platform for sales tracking, inventory management, and KPI reporting
 
 This project is a production-style full-stack application built using React (Frontend) and Django + Django REST Framework (Backend).
 It is designed to track product inventory, record sales transactions, and present real-time business insights through an interactive dashboard.
